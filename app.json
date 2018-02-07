@@ -1,0 +1,36 @@
+{
+    "pages":[
+        {
+            "entry":"about",
+            "title":"关于",
+            "cdn":{
+                "js":[
+                    
+                ]
+            }
+        },{
+            "entry":"home",
+            "title":"首页",
+            "cdn":{}
+        },{
+            "entry":"index",
+            "title":"主页",
+            "cdn":{}
+        }
+    ],
+    "basePath": "./src/pages/",
+    "cdn": {
+        "js": [
+            "https://cdn.bootcss.com/vue/2.5.2/vue.min.js",
+            "https://cdn.bootcss.com/element-ui/2.1.0/index.js"
+        ],
+        "css": [
+            "https://cdn.bootcss.com/element-ui/2.1.0/theme-chalk/index.css"
+        ]
+    },
+    "externals": {                              
+        "vue": "Vue",
+        "element-ui": "ElementUI"
+    }
+
+}
