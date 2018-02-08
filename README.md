@@ -21,7 +21,6 @@ npm run build --report
 
 项目根目录pages中添加对应页面的js 和 vue文件 
 
-
 在app.json中添加对应的页面配置 （例子在app.json中） 
 ``` javascript
     {
