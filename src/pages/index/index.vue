@@ -1,4 +1,4 @@
-<template>
+  <template>
     <div class="app">
         <Header></Header>
         <div style="margin-top:100px">
@@ -27,6 +27,7 @@ export default {
 <style scoped>
     .app{
         background: #000;
+        font-size: 12px;
     }
 </style>
 
